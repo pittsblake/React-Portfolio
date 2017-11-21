@@ -17,7 +17,7 @@ const Container = styled.div`
     } 
     
     div:first-child {
-        margin-right: 110px
+        margin-right: 108px
     }
 `
 
@@ -42,7 +42,7 @@ const Bike = styled.div`
         width: 0;
         height: 0;
         right: 100%;
-        border-bottom: 776px solid tomato;
+        border-bottom: 775px solid tomato;
         border-left: 100px solid transparent;
     }
 `
