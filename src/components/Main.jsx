@@ -26,7 +26,8 @@ const Container = styled.div`
 const Coffee = styled.div`
     background-image: url("https://i.imgur.com/CKF2FXP.jpg");
     background-size: cover;
-    background-position:center;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
 
@@ -36,12 +37,12 @@ const Coffee = styled.div`
 `
 
 const Bike = styled.div`
-    background-image: url("https://i.imgur.com/YZHydpd.jpg");
-    background-size: 150% 100%;
+    background-image: url("https://i.imgur.com/xaPNj6R.jpg");
+    background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: center
+    justify-content: center;
 `
 
 class Main extends Component {
